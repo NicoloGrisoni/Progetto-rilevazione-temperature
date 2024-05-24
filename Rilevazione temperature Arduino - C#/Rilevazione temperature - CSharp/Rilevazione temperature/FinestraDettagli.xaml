@@ -1,0 +1,19 @@
+﻿<Window x:Class="Rilevazione_temperature.FinestraDettagli"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Rilevazione_temperature"
+        mc:Ignorable="d"
+        Title="FinestraDettagli" Height="250" Width="350"
+        FontFamily="Arial">
+    <Grid>
+        <Label Content="Dettagli temperatura" HorizontalAlignment="Center" Height="40" Margin="0,10,0,0" VerticalAlignment="Top" Width="254" FontSize="25" FontWeight="Bold"/>
+        <TextBox Name="TextBox_Valore" HorizontalAlignment="Left" Height="24" Margin="159,62,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="115" FontSize="17" IsReadOnly="True"/>
+        <TextBox Name="TextBox_Data" HorizontalAlignment="Left" Height="24" Margin="159,117,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="115" FontSize="17" IsReadOnly="True"/>
+        <CheckBox Name="CheckBox_SopraMedia" HorizontalAlignment="Left" Height="17" Margin="258,181,0,0" VerticalAlignment="Top" IsHitTestVisible="False"/>
+        <Label Content="Valore: " HorizontalAlignment="Left" Height="24" Margin="83,62,0,0" VerticalAlignment="Top" Width="60" FontSize="15"/>
+        <Label Content="Data e ora:" HorizontalAlignment="Left" Height="24" Margin="58,117,0,0" VerticalAlignment="Top" Width="85" FontSize="15"/>
+        <Label Content="Temperatura sopra alla media:" HorizontalAlignment="Left" Height="27" Margin="33,174,0,0" VerticalAlignment="Top" Width="220" FontSize="15"/>
+    </Grid>
+</Window>
