@@ -12,4 +12,4 @@
 > Per ulteriori informazioni sullo sviluppo del progetto e sul suo funzionamento, sono disponibili una descrizione in un file di testo e una presentazione in versione powerpoint
 
 ## 🔑Licenza
-> Questo progetto è rilasciato sotto la Licenza MIT. Per ulteriori informazioni, visita [MIT License](https://articles.opexflow.com/it/programming/license-github.htm).P
+> Questo progetto è rilasciato sotto la Licenza MIT. Per ulteriori informazioni, visita [MIT License](https://articles.opexflow.com/it/programming/license-github.htm)
